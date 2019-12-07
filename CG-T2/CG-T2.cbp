@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="CG-T2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+        <Option virtualFolders="collision\;drawable\;material\;navigator\;object\;ply\;primitive\;scene\;" />
+		<Build>
+            <Target title="Debug">
+				<Option output="bin/Debug/CG-T2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="GL" />
+					<Add library="glut" />
+					<Add library="GLU" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/CG-T2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++11" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="GL" />
+					<Add library="glut" />
+					<Add library="GLU" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="collision/BoundingBox.cpp">
+			<Option virtualFolder="collision/" />
+		</Unit>
+		<Unit filename="collision/BoundingBox.h">
+			<Option virtualFolder="collision/" />
+		</Unit>
+		<Unit filename="collision/Collider.cpp">
+			<Option virtualFolder="collision/" />
+		</Unit>
+		<Unit filename="collision/Collider.h">
+			<Option virtualFolder="collision/" />
+		</Unit>
+		<Unit filename="drawable/Axis.cpp">
+			<Option virtualFolder="drawable/" />
+		</Unit>
+		<Unit filename="drawable/Axis.h">
+			<Option virtualFolder="drawable/" />
+		</Unit>
+		<Unit filename="drawable/Drawable.cpp">
+			<Option virtualFolder="drawable/" />
+		</Unit>
+		<Unit filename="drawable/Drawable.h">
+			<Option virtualFolder="drawable/" />
+		</Unit>
+		<Unit filename="drawable/Grid.cpp">
+			<Option virtualFolder="drawable/" />
+		</Unit>
+		<Unit filename="drawable/Grid.h">
+			<Option virtualFolder="drawable/" />
+		</Unit>
+		<Unit filename="main.cpp" />
+		<Unit filename="material/Material.cpp">
+			<Option virtualFolder="material/" />
+		</Unit>
+		<Unit filename="material/Material.h">
+			<Option virtualFolder="material/" />
+		</Unit>
+		<Unit filename="navigator/NavigatorCamera.cpp">
+			<Option virtualFolder="navigator/" />
+		</Unit>
+		<Unit filename="navigator/NavigatorCamera.h">
+			<Option virtualFolder="navigator/" />
+		</Unit>
+		<Unit filename="object/Brick.cpp">
+			<Option virtualFolder="object/" />
+		</Unit>
+		<Unit filename="object/Brick.h">
+			<Option virtualFolder="object/" />
+		</Unit>
+		<Unit filename="object/Ground.cpp">
+			<Option virtualFolder="object/" />
+		</Unit>
+		<Unit filename="object/Ground.h">
+			<Option virtualFolder="object/" />
+		</Unit>
+		<Unit filename="object/Object.cpp">
+			<Option virtualFolder="object/" />
+		</Unit>
+		<Unit filename="object/Object.h">
+			<Option virtualFolder="object/" />
+		</Unit>
+		<Unit filename="object/ObjectGroup.cpp">
+			<Option virtualFolder="object/" />
+		</Unit>
+		<Unit filename="object/ObjectGroup.h">
+			<Option virtualFolder="object/" />
+		</Unit>
+		<Unit filename="object/Player.cpp">
+			<Option virtualFolder="object/" />
+		</Unit>
+		<Unit filename="object/Player.h">
+			<Option virtualFolder="object/" />
+		</Unit>
+		<Unit filename="object/Wall.cpp">
+			<Option virtualFolder="object/" />
+		</Unit>
+		<Unit filename="object/Wall.h">
+			<Option virtualFolder="object/" />
+		</Unit>
+		<Unit filename="ply/PLYObject.cpp">
+			<Option virtualFolder="ply/" />
+		</Unit>
+		<Unit filename="ply/PLYObject.h">
+			<Option virtualFolder="ply/" />
+		</Unit>
+		<Unit filename="ply/PLYReader.cpp">
+			<Option virtualFolder="ply/" />
+		</Unit>
+		<Unit filename="ply/PLYReader.h">
+			<Option virtualFolder="ply/" />
+		</Unit>
+		<Unit filename="primitive/Line.cpp">
+			<Option virtualFolder="primitive/" />
+		</Unit>
+		<Unit filename="primitive/Line.h">
+			<Option virtualFolder="primitive/" />
+		</Unit>
+		<Unit filename="primitive/Point.cpp">
+			<Option virtualFolder="primitive/" />
+		</Unit>
+		<Unit filename="primitive/Point.h">
+			<Option virtualFolder="primitive/" />
+		</Unit>
+		<Unit filename="primitive/Primitive.cpp">
+			<Option virtualFolder="primitive/" />
+		</Unit>
+		<Unit filename="primitive/Primitive.h">
+			<Option virtualFolder="primitive/" />
+		</Unit>
+		<Unit filename="primitive/Quad.cpp">
+			<Option virtualFolder="primitive/" />
+		</Unit>
+		<Unit filename="primitive/Quad.h">
+			<Option virtualFolder="primitive/" />
+		</Unit>
+		<Unit filename="primitive/RGBColor.h">
+			<Option virtualFolder="primitive/" />
+		</Unit>
+		<Unit filename="primitive/Triangle.cpp">
+			<Option virtualFolder="primitive/" />
+		</Unit>
+		<Unit filename="primitive/Triangle.h">
+			<Option virtualFolder="primitive/" />
+		</Unit>
+		<Unit filename="primitive/Vertex3D.cpp">
+			<Option virtualFolder="primitive/" />
+		</Unit>
+		<Unit filename="primitive/Vertex3D.h">
+			<Option virtualFolder="primitive/" />
+		</Unit>
+		<Unit filename="scene/Scene.cpp">
+			<Option virtualFolder="scene/" />
+		</Unit>
+		<Unit filename="scene/Scene.h">
+			<Option virtualFolder="scene/" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
